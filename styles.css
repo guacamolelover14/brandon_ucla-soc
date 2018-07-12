@@ -22,3 +22,17 @@
   color: white;
 }
 
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px ;
+  font-size: .9em;
+  font-family: 'Open Sans', sans-serif;
+  overflow: auto;
+  margin-top: 0px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
